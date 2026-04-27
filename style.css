@@ -1,0 +1,101 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+}
+
+.contato {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.contato a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+/* Seções */
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #2980b9;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Habilidades (Tags) */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill-tag {
+    background: #e8f4fd;
+    color: #2980b9;
+    padding: 5px 15px;    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: bold;
+    border: 1px solid #2980b9;
+}
+
+/* Lista de Competências */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
